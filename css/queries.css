@@ -1,0 +1,98 @@
+@media only screen and (max-width: 75em) {
+  .container {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 68.75em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .content {
+    flex-direction: column;
+  }
+  .side-nav {
+    display: flex;
+    margin: 0;
+  }
+  .legal {
+    display: none;
+  }
+  .side-nav__item {
+    flex: 1;
+  }
+  .side-nav__item:not(:last-child) {
+    margin: 0;
+  }
+  .side-nav__link:link,
+  .side-nav__link:visited {
+    justify-content: center;
+    padding: 2rem;
+  }
+  .detail {
+    padding: 3rem;
+  }
+  .description {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+  .review {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+  .cta {
+    padding: 2.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .detail {
+    flex-direction: column;
+  }
+  .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  .side-nav__link:link,
+  .side-nav__link:visited {
+    flex-direction: column;
+    padding: 1.5rem 0.5rem;
+  }
+  .side-nav__icon {
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .overview__heading {
+    font-size: 1.8rem;
+    padding: 1.25rem 2rem;
+  }
+  .overview__rating {
+    padding: 0 1.5rem;
+  }
+  .overview__rating-avarage {
+    font-size: 1.8rem;
+  }
+  .overview__rating-count {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header {
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 12rem;
+  }
+  .search {
+    order: 1;
+    flex: 0 0 100%;
+    background-color: var(--color-grey-light-2);
+  }
+}
